@@ -1,14 +1,14 @@
 {
-  "name": "hackerBay-microservices",
+  "name": "task--microservices",
   "version": "1.0.0",
-  "description": "Simple Stateless Microservice ",
+  "description": "task  Stateless Microservice ",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "test": "nyc mocha --timeout 10000 ",
     "coverage": "nyc --reporter html --reporter text npm test"
   },
-  "author": "@ Sourav Vikas Mohanty",
+  "author": "@ vilgax kenb",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^5.0.1",
@@ -19,6 +19,7 @@
     "fs": "0.0.1-security",
     "image-downloader": "^3.3.0",
     "jsonwebtoken": "^8.2.1",
+    "lint": "^1.1.2",
     "morgan": "^1.9.1",
     "node-localstorage": "^1.3.1",
     "path": "^0.12.7",
